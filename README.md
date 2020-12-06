@@ -1,5 +1,4 @@
 # HelloWorld ToOne
-#Connected with aws one369369
 #Name change
 #Three
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.10.3
