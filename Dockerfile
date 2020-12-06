@@ -11,9 +11,6 @@ RUN yum install -y maven
 RUN curl -sL https://rpm.nodesource.com/setup_8.x
 RUN yum install -y nodejs
 RUN npm install -g @angular/cli
-COPY package.json ./
-COPY . .
-RUN npm run build
 COPY --from=build-step /test/dist /opt/tomcat/
 RUN sed -i 's/port="8080"/port="7070"/' /opt/tomcat/conf/server.xml
 WORKDIR /opt/tomcat/bin
