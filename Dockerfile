@@ -14,7 +14,7 @@ RUN npm install -g @angular/cli
 COPY package.json ./
 COPY . .
 RUN npm run build
-COPY --frombuild-step /test/dist /opt/tomcat/
+COPY --from=build-step /test/dist /opt/tomcat/
 RUN sed -i 's/port="8080"/port="7070"/' /opt/tomcat/conf/server.xml
 WORKDIR /opt/tomcat/bin
 EXPOSE 7070
