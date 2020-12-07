@@ -1,4 +1,3 @@
-FROM centos
 FROM node:alpine AS builder
 RUN mkdir /opt/test/
 RUN mkdir /opt/tomcat/
