@@ -4,7 +4,7 @@ RUN mkdir /opt/tomcat/
 WORKDIR /app
 CMD npm install -g @angular/cli
 COPY ./package.json .
-RUN npm install
+CMD npm install
 COPY . .
-RUN ng build
+CMD ng build
 COPY --from=build /app/dist/. /opt/tomcat/
