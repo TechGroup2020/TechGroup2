@@ -8,4 +8,4 @@ COPY ./package.json .
 CMD npm install
 COPY . .
 CMD ng build
-COPY --from=build /app/dist/. /usr/share/
+ADD /app/dist/. /usr/share/
