@@ -7,4 +7,4 @@ COPY ./package.json .
 CMD npm install
 COPY . .
 CMD ng build
-COPY --from=build /app/dist/. /opt/tomcat/
+COPY --from=build /app/dist/. 
