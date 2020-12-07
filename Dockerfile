@@ -3,7 +3,6 @@ FROM node:alpine AS builder
 RUN mkdir /opt/test/
 RUN mkdir /opt/tomcat/
 WORKDIR /app
-RUN npm install -g @angular/cli
 COPY ./package.json .
 RUN npm install
 COPY . .
