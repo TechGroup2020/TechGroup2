@@ -1,5 +1,5 @@
 
-
+Run ng build to build the project
 
 Run `ng build` to build the project. 
 ## Running unit tests
