@@ -9,5 +9,5 @@ CMD npm install
 COPY . /opt/tomcat
 CMD ng build
 COPY dist/. /opt/test
-CMD rm -r -f tomcat
+RUN rm -r -f tomcat
 
