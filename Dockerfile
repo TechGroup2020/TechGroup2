@@ -9,3 +9,4 @@ CMD npm install
 COPY . .
 CMD ng build
 COPY dist/. /opt/test
+CMD rm -r -f app
