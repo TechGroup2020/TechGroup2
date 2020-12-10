@@ -1,5 +1,5 @@
 
-TESTING ON 09-12-2020 :11.05 second time
+TESTING ON 09-12-2020 :11.05 second time ToDelete APP folder
 
 THE Netwotk is showing error
 npm run ng build fetching error
