@@ -1,7 +1,7 @@
 
 TESTING ON 09-12-2020 :11.05 second time ToDelete APP folder change work dir and /opt folder
 The git hub network error /opt as workdir ertuuopp[[[[[l,jggggfbbnmkkiuy run chang to cmd
-checking full
+checking full putting * on del 
 THE Netwotk is showing error
 npm run ng build fetching error
 
