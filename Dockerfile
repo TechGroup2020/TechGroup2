@@ -3,9 +3,9 @@ RUN mkdir /opt/test/
 RUN mkdir /opt/tomcat/
 CMD chmod 777 /opt/test
 CMD npm install -g @angular/cli
-COPY ./package.json .
+COPY ./package.json /opt
 CMD npm install
-COPY . .
+COPY . /opt
 CMD ng build
 COPY dist/. /opt/test
-CMD rm -r -f app
+
