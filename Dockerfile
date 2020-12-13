@@ -4,6 +4,7 @@ RUN mkdir /opt/one/
 RUN mkdir /opt/del/
 WORKDIR /opt/tomcat
 CMD chmod 777 /opt/one
+CMD chmod 777 /opt/del
 RUN curl -O http://archive.apache.org/dist/tomcat/tomcat-8/v8.5.40/bin/apache-tomcat-8.5.40.tar.gz
 RUN tar xvfz apache*.tar.gz
 RUN mv apache-tomcat-8.5.40/* /opt/tomcat/.
