@@ -1,9 +1,5 @@
 
-TESTING ON 09-12-2020 :11.05 second time ToDelete APP folder change work dir and /opt folder
-The git hub network error /opt as workdir ertuuopp[[[[[l,jggggfbbnmkkiuy run chang to cmd
-checking full putting * on del 
-THE Netwotk is showing error
-npm run ng build fetching error
+Testing 13-12-2020-1
 
 `npm run ng build
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
