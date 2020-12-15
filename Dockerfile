@@ -22,7 +22,6 @@ COPY dist/. /opt/tomcat/webapps/one
 RUN sed -i 's/port="8080"/port="5050"/' /opt/tomcat/conf/server.xml
 WORKDIR /opt/tomcat/bin
 EXPOSE 5050
-VOLUME ["/opt/tomcat/one"] 
 RUN rm -r -f /opt/del/
 CMD ["./catalina.sh" ,"run"]
 
