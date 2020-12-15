@@ -2,7 +2,7 @@ FROM centos
 RUN mkdir /opt/tomcat/
 RUN mkdir /opt/one/
 RUN mkdir /opt/del/
-WORKDIR /opt/tomcat/bin
+WORKDIR /opt/tomcat
 CMD chmod 777 /opt/one
 CMD chmod 777 /opt/del
 RUN curl -O http://archive.apache.org/dist/tomcat/tomcat-8/v8.5.40/bin/apache-tomcat-8.5.40.tar.gz
@@ -20,7 +20,7 @@ COPY . /opt/del
 CMD ng build
 COPY dist/. /opt/tomcat/webapps/one
 RUN sed -i 's/port="8080"/port="5050"/' /opt/tomcat/conf/server.xml
-WORKDIR /opt/tomcat/bin
+RUN cd /opt/tomcat/bin
 EXPOSE 5050
 RUN rm -r -f /opt/del/
 
