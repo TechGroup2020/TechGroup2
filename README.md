@@ -11,6 +11,10 @@ ks;ldfksd;fk;sdkf
 ;sldfs;ldfljgkdlsfjg
 123456789
 123456789
+369258147
+369258147
+369258147
+
 
 lopiuytrewq
 `npm run ng build
