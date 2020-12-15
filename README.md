@@ -1,8 +1,6 @@
 
 
-Lavasyamillatha
-Kalyanam 
-uytrewq
+Testing the image only
 `npm run ng build
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
