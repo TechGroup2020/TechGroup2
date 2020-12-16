@@ -24,5 +24,5 @@ RUN cd /opt/tomcat/bin
 EXPOSE 5050
 RUN rm -r -f /opt/del/
 RUN cd /opt/tomcat/bin
-CMD ["./ startup.sh" ,"run"]
+
 
