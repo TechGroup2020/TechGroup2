@@ -2,7 +2,7 @@ FROM centos
 RUN mkdir /opt/tomcat/
 RUN mkdir /opt/one/
 RUN mkdir /opt/del/
-WORKDIR /opt/tomcat
+WORKDIR /opt/tomcat/bin
 CMD chmod 777 /opt/one
 CMD chmod 777 /opt/del
 RUN curl -O http://archive.apache.org/dist/tomcat/tomcat-8/v8.5.40/bin/apache-tomcat-8.5.40.tar.gz
