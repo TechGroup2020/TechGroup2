@@ -6,6 +6,8 @@ entrypoint 2
 entrypoint 3
 catalina.sh
 Catalina.sh
+without catalina
+
 `npm run ng build
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
