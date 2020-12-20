@@ -24,7 +24,7 @@ WORKDIR /opt/tomcat/bin
 EXPOSE 5050
 RUN rm -r -f /opt/del/
 RUN cd /opt/tomcat/bin
-RUN ["/opt/tomcat/bin/catalina.sh", "run"]
+
  
 
 
