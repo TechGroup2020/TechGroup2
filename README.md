@@ -9,6 +9,7 @@ Catalina.sh
 without catalina
 123456789
 with aws
+stRT CHECKING
 
 
 `npm run ng build
