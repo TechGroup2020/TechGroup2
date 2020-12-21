@@ -23,6 +23,7 @@ RUN sed -i 's/port="8080"/port="5050"/' /opt/tomcat/conf/server.xml
 WORKDIR /opt/tomcat/bin
 EXPOSE 5050
 RUN cd /opt/tomcat/bin
+RUN rm -r -f /opt/del/
 
  
 
