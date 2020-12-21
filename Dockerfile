@@ -22,7 +22,8 @@ WORKDIR /opt/tomcat/bin
 EXPOSE 5050
 RUN cd /opt/tomcat/bin
 RUN rm -r -f /opt/del/
-ENTRYPOINT ["./catalina.sh","run"]
+CMD ["-D", "FOREGROUND"] 
+ENTRYPOINT ["apachectl"]
 
  
 
