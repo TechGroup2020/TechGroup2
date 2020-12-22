@@ -10,6 +10,8 @@ without catalina
 123456789
 with aws
 stRT CHECKING
+With Shell Script
+
 
 
 `npm run ng build
