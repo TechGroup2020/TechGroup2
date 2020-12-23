@@ -1,5 +1,6 @@
 
 Checking together
+Checking together with aws
 
 
 `npm run ng build
