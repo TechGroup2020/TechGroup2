@@ -1,20 +1,4 @@
-With AWS New Proj Check
-With Same Jenkins
-together shell running
-Success-1
-Success new with ngrok
-Testing with other proj
-Testing for /bin/bash
-testing entrypoint
-entrypoint 2
-entrypoint 3
-catalina.sh
-Catalina.sh
-without catalina
-123456789
-with aws
-stRT CHECKING
-With Shell Script
+
 
 
 
