@@ -1,5 +1,6 @@
 With AWS New Proj Check
 With Same Jenkins
+together shell running
 Success-1
 Success new with ngrok
 Testing with other proj
