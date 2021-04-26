@@ -1,6 +1,5 @@
 
-Checking together
-Checking together with aws
+Checking with HostingRaja-1
 
 
 `npm run ng build
